@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amine SAIDI</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+    <!-- Include your header content or navigation bar here -->
+    {% include 'partials/header.twig' %}
+</header>
+
+<main>
+    <!-- Render the specific page content here -->
+    {% block content %}{% endblock %}
+</main>
+
+<footer>
+    <!-- Include your footer content here -->
+    {% include 'partials/footer.twig' %}
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

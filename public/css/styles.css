@@ -1,0 +1,143 @@
+/* CSS Reset (optional) */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px; /* Adjust the width as desired */
+    height: 80px; /* Adjust the height as desired */
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.articles-section {
+    margin-top: 20px;
+}
+
+.articles-section h2 {
+    text-align: center;
+}
+
+.article {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 0.8em; /* Adjust the value as needed */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    line-height: 1.5; /* Adjust the line height as needed */
+    text-align: justify; /* Align the text to justify (or other options like left, center, right) */
+    color: #333; /* Set the color of the text */
+}
+
+.article-header {
+    margin-bottom: 10px;
+}
+
+.article-description{
+    display: flex;
+    justify-content: space-between;
+}
+.time-logo,
+.calendar-logo {
+    font-size: 12px;
+    color: #666;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.articles-section img {
+    margin-left: 30px;
+    width: 150px; /* Adjust the width as desired */
+    height: 100px; /* Adjust the height as desired */
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 767px) {
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    main {
+        padding: 10px 0;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+

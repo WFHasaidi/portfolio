@@ -1,0 +1,36 @@
+# Ignore vendor directory (dependencies installed via Composer)
+/vendor
+
+# Ignore IDE-specific files and directories
+/.idea
+/.vscode
+/.phpstorm.meta.php
+
+# Ignore log files
+/log/*.log
+
+# Ignore environment configuration files
+/.env
+
+# Ignore cache and temporary files
+/cache
+/tmp
+
+# Ignore session files
+/sessions
+
+# Ignore compiled asset files
+/public/assets
+
+# Ignore user uploads
+/public/uploads
+
+# Ignore any sensitive or private files
+/secret-file.txt
+
+# Ignore database files
+/mysql_data
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
